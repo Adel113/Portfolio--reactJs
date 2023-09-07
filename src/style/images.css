@@ -14,14 +14,13 @@
 }
   
 .coordonnees img{
-  border-radius: 10px;
   display: block;
   width: 50px;
   margin: auto;
-  align-items: center;
+  
+ 
 }
 .imagesCompetences img{
-  
   display: block;
   width: 50px;
   margin: auto;
@@ -58,8 +57,5 @@
   .coordonnees a {
     font-size: 9px;
   }
-  
-  
-
-  
+ 
 }

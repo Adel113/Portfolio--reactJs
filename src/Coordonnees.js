@@ -2,7 +2,7 @@
 
 function Coordonnees() {
   const sectionStyle = { textAlign: "center" };
-  const rowStyle = { marginBottom: "100px" };
+  const rowStyle = { marginBottom: "00px" };
   const headingStyle = { textAlign: "center", fontSize: "25px" };
   const imgStyle = { marginBottom: "60px" , borderRradius: "80px" };
 
