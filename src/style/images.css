@@ -1,0 +1,65 @@
+/**
+ * ----------------------------------------
+ * IMAGES
+ * ----------------------------------------
+ */
+.images {
+  width: 50px;
+  border-radius: 10px
+}
+.avatar {
+  display: block;
+  width: 55%;
+  margin: auto;
+}
+  
+.coordonnees img{
+  border-radius: 10px;
+  display: block;
+  width: 50px;
+  margin: auto;
+  align-items: center;
+}
+.imagesCompetences img{
+  
+  display: block;
+  width: 50px;
+  margin: auto;
+}
+    
+.imagesCompetences .col-md-4 {
+  margin-top: 100px;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .row.imagesCompetences {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 images par ligne */
+    gap: 20px; /* Espacement entre les images */
+  }
+  .imagesCompetences img {
+    max-width: 100%; /* Pour que les images ne dépassent pas leur conteneur */
+  }
+  .row.coordonnees {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 images par ligne */
+    gap: 20px;/* Espacement entre les images */
+  }
+  .row.coordonnees img {
+    max-width: 100%;
+    
+  }
+  .coordonnees a {
+    font-size: 9px;
+  }
+  
+  
+
+  
+}

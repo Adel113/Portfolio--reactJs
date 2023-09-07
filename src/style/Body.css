@@ -1,0 +1,72 @@
+
+/**
+ * ----------------------------------------
+ * FOR PHONE 
+ * ----------------------------------------
+ */
+
+
+/* Styles pour masquer les icônes par défaut */
+
+/* Import de la police Nunito depuis Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+
+/* Définition des variables CSS personnalisées */
+:root {
+  --header-height: 3rem;
+  --nav-width: 68px;
+  --first-color-light: #AFA5D9;
+  --white-color: #F7F6FB;
+  --body-font: 'Nunito', sans-serif;
+  --normal-font-size: 1rem;
+  --z-fixed: 100;
+}
+
+/* Réinitialisation des styles par défaut pour tous les éléments */
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+/* Styles de base pour le corps de la page */
+body {
+  position: relative;
+  margin: var(--header-height) 0 0 0;
+  padding: 0 1rem;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  transition: .5s;
+}
+
+/* Styles de base pour les liens */
+a {
+  text-decoration: none;
+}
+
+
+
+/* Media query pour les écrans de largeur supérieure à 768px */
+@media screen and (max-width: 882px) {
+  body {
+    margin: calc(var(--header-height) + 1rem) 0 0 0;
+    padding-left: calc(var(--nav-width) + 0.01rem);
+    padding-right: calc(var(--nav-width) + 0.01rem);
+  }
+}
+@media screen and (max-width: 412px) {
+  body {
+    font-size: 10px;
+    margin: calc(var(--header-height) + 2rem) 0 0 0;
+    padding-left: calc(var(--nav-width) + 2rem);
+    padding-right: calc(var(--nav-width) + 1rem);
+  }
+}
+@media screen and (max-width: 375px) {
+  body {
+    font-size: 10px;
+    margin: calc(var(--header-height) + 2rem) 0 0 0;
+    padding-left: calc(var(--nav-width) + 3rem);
+    padding-right: calc(var(--nav-width) + 1rem);
+  }
+}
+
+/* Styles pour les indicateurs visuels des éléments de menu déroulant */
