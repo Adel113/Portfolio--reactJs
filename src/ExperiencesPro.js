@@ -1,19 +1,22 @@
 
-const Pstyle = {marginBottom: "60px"};
-const prostyle = {marginTop: "200px"};
+const Pstyle = {marginBottom: "60px" , border: "4px solid black", borderRadius: "40px", padding: "10px"};
+
+const estyle = {color: "red"};
+const sectionEStyle = { padding : "50px",  background : "#fff" , borderRadius : "200px 40px 40px 40px" , marginTop : "60px" };
+
 
 
 function ExperiencesPro (){
     return (
 
-        <section id="ExperiencesSections" style={prostyle}>
+        <section id="ExperiencesSections" style={sectionEStyle}>
           <div className="row "  >
             <div className="col-md-12 expos">
               <h2>
-               EXPÉRIENCES PROFISSIONNELLES
+              <span style={estyle}>E</span>XPÉRIENCES PROFISSIONNELLES
               </h2>
               <p style={Pstyle}>
-               Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+              Ces différentes expériences professionnelles témoignent de ma polyvalence, de ma capacité à m'adapter à différents domaines et de mon engagement à acquérir de nouvelles compétences pour exceller dans chaque rôle. En tant qu'entraîneur de Vo-Vietnam, j'ai développé des compétences en communication et en enseignement. En tant que propriétaire d'un magasin de crêpes et glaces, j'ai acquis une expérience solide en gestion d'entreprise. Mon rôle en tant que spécialiste du flockage m'a permis de perfectionner mon attention aux détails et mon expertise technique en matière de revêtements. En tant que graphiste designer, j'ai su donner vie à des idées créatives grâce à des outils numériques. Enfin, mon expérience en tant qu'employé polyvalent en restaurant pizzeria démontre ma capacité à travailler dans le secteur de la restauration avec succès.
               </p>
              
               <div className="row">

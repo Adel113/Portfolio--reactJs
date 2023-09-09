@@ -1,7 +1,8 @@
 
 
 const pStyle = {marginBottom: "60px"}
-const p1Style = {marginTop: "200px"}
+
+const sectionFStyle = { padding : "50px",  background : "#fff" , borderRadius : "200px 40px 40px 40px" , marginTop : "60px" };
 
 
 function Formations(){
@@ -9,7 +10,7 @@ function Formations(){
         
         <div>
           
-            <section id="FormationsSection" style={p1Style}>
+            <section id="FormationsSection" style={sectionFStyle}>
               <div className="row ">
                 <div class="col-md-12 expos">
                     <h2>

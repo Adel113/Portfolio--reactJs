@@ -4,8 +4,8 @@ function Competences() {
  
     
     
-  const H2Style = { textAlign: "center" };
-  const HrStyle = { margin: "0", marginBottom: "60px" };
+  const H2Style = { textAlign: "center" , marginTop: "10px" };
+  const sectionCStyle = { padding : "50px",  background : "#fff" , borderRadius : "40px 40px 40px 200px" };
 
   return (
     <div>
@@ -29,8 +29,8 @@ function Competences() {
         </div>
       </div>
 
-      <section className="b" id="competencesSection">
-        <hr className="featurette-divider12" style={HrStyle} />
+      <section className="b" id="competencesSection" style={sectionCStyle}>
+        
         
 
         <h2 style={H2Style}>

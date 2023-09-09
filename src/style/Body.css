@@ -13,11 +13,11 @@
 
 /* Définition des variables CSS personnalisées */
 :root {
-  --header-height: 3rem;
+  
   --nav-width: 68px;
-  --first-color-light: #AFA5D9;
-  --white-color: #F7F6FB;
-  --body-font: 'Nunito', sans-serif;
+  --first-color-light: #2f188e;
+  --white-color: #3000f2;
+ 
   --normal-font-size: 1rem;
   --z-fixed: 100;
 }
@@ -29,12 +29,13 @@
 
 /* Styles de base pour le corps de la page */
 body {
-  position: relative;
+  background: #0f0f0f;
+ 
   margin: var(--header-height) 0 0 0;
-  padding: 0 1rem;
+  
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  transition: .5s;
+  
 }
 
 /* Styles de base pour les liens */
@@ -44,15 +45,31 @@ a {
 
 
 
+
 /* Media query pour les écrans de largeur supérieure à 768px */
 @media screen and (max-width: 882px) {
+  
   body {
     margin: calc(var(--header-height) + 1rem) 0 0 0;
     padding-left: calc(var(--nav-width) + 0.01rem);
     padding-right: calc(var(--nav-width) + 0.01rem);
   }
 }
+@media screen and (max-width: 780px){
+  .name{
+    text-align: center;
+  }
+  .presentation {
+    font-size: 15px;
+    padding: 50px;
+  }
+  
+}
 @media screen and (max-width: 412px) {
+  .presentation {
+    font-size: 10px;
+    text-align: center;
+  }
   body {
     font-size: 10px;
     margin: calc(var(--header-height) + 2rem) 0 0 0;

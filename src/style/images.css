@@ -11,6 +11,7 @@
   display: block;
   width: 55%;
   margin: auto;
+  border-radius : 40px 40px 40px 100px;
 }
   
 .coordonnees img{
