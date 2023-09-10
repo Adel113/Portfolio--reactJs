@@ -2,17 +2,26 @@
 
 const pStyle = {marginBottom: "60px"}
 
-const sectionFStyle = { padding : "50px",  background : "#fff" , borderRadius : "200px 40px 40px 40px" , marginTop : "60px" };
+const sectionFStyle = { padding : "50px",  background : "#fff" , borderRadius : "200px 40px 40px 40px"  };
 
 
 function Formations(){
     return (
         
         <div>
+          <div className="animation-trigger" style={{marginTop:"60px"}}>
+          <div className="row">
+              <div className="col-md-12">
+                <div className="bounce-top scroll-animation">
+                  <img className="center" style={{ display: "block", width: "50%" , margin:"auto" }} alt="séparation de la page" src="pictures/competences/center-image3.png" />
+                </div>
+              </div>
+          </div>
+        </div>
           
             <section id="FormationsSection" style={sectionFStyle}>
               <div className="row ">
-                <div class="col-md-12 expos">
+                <div className="col-md-12 expos">
                     <h2>
                        FORMATIONS
                     </h2>

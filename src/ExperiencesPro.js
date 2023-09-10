@@ -2,12 +2,22 @@
 const Pstyle = {marginBottom: "60px" , border: "4px solid black", borderRadius: "40px", padding: "10px"};
 
 const estyle = {color: "red"};
-const sectionEStyle = { padding : "50px",  background : "#fff" , borderRadius : "200px 40px 40px 40px" , marginTop : "60px" };
+const sectionEStyle = { padding : "50px",  background : "#fff" , borderRadius : "40px 40px 40px 200px" };
 
 
 
 function ExperiencesPro (){
     return (
+      <div>
+        <div className="animation-trigger" style={{marginTop:"60px"}}>
+          <div className="row">
+              <div className="col-md-12">
+                <div className="bounce-top scroll-animation">
+                  <img className="center" style={{ display: "block", width: "50%" , margin:"auto" }} alt="séparation de la page" src="pictures/competences/center-image5.png" />
+                </div>
+              </div>
+          </div>
+        </div>
 
         <section id="ExperiencesSections" style={sectionEStyle}>
           <div className="row "  >
@@ -97,6 +107,7 @@ function ExperiencesPro (){
           </div>  
          
         </section>
+      </div>  
 
     );
 }

@@ -1,9 +1,5 @@
-
 function Competences() {
-  
- 
-    
-    
+
   const H2Style = { textAlign: "center" , marginTop: "10px" };
   const sectionCStyle = { padding : "50px",  background : "#fff" , borderRadius : "40px 40px 40px 200px" };
 
@@ -21,7 +17,7 @@ function Competences() {
             <div className="row">
               <div className="col-md-12">
                 <div className="bounce-top scroll-animation">
-                  <img style={{ display: "block", width: "100%" }} alt="séparation de la page" src="pictures/coordonnees/centre.png" />
+                  <img className="center" style={{ display: "block", width: "50%" , margin: "auto" }} alt="séparation de la page" src="pictures/competences/center-image4.png" />
                 </div>
               </div>
             </div>

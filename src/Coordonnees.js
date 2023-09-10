@@ -1,9 +1,9 @@
 
 
 function Coordonnees() {
-  const sectioncStyle = { padding : "50px",textAlign: "center", background : "#fff" , marginTop: "60px" , borderRadius : "200px 40px 40px 40px" };
+  const sectioncStyle = { padding : "50px",textAlign: "center", background : "#fff" , borderRadius : "200px 40px 40px 40px" };
   const sectionqStyle = { background : "#fff" , borderRadius : "40px 40px 40px 200px" };
-  const rowStyle = {  };
+  const cooStyle = { marginBottom : "60px"};
   const headingStyle = { textAlign: "center", fontSize: "25px" };
   const imgStyle = { marginBottom: "60px" , borderRradius: "80px" };
 
@@ -12,6 +12,7 @@ function Coordonnees() {
     <div >
       
       <section id="QuiSuisJeSection" style={sectionqStyle}>
+        
         <h1 className="titre bounce-top">Bienvenus à mon portfolio</h1>
         <div className="row">
          <div className="col-md-4">
@@ -29,10 +30,20 @@ function Coordonnees() {
           </div>
         </div>
       </section>
+      <div className="animation-trigger" style={{marginTop:"60px"}}>
+          <div className="row">
+              <div className="col-md-12">
+                <div className="bounce-top scroll-animation">
+                  <img className="center" style={{ display: "block", width: "50%" , margin:"auto" }} alt="séparation de la page" src="pictures/competences/center-image2.png" />
+                </div>
+              </div>
+          </div>
+      </div>
         
       <section className="a" id="CoordonnéesSection" style={sectioncStyle}>
-        <h2>COORDONNÉES</h2>
-        <div className="row coordonnees" style={rowStyle}>
+      
+        <h2 style={cooStyle}>COORDONNÉES</h2>
+        <div className="row coordonnees" >
           <div className="col-md-4 col">
             <img alt="localisation" src="pictures/coordonnees/source-locale.png" />
             <h2 style={headingStyle}>
