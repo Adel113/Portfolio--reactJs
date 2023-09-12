@@ -14,6 +14,8 @@
 /* Définition des variables CSS personnalisées */
 :root {
   
+
+  
   --nav-width: 68px;
   --first-color-light: #2f188e;
   --white-color: #3000f2;
@@ -29,7 +31,9 @@
 
 /* Styles de base pour le corps de la page */
 body {
-  background: #0f0f0f;
+  background: #000;
+  
+  
  
   margin: var(--header-height) 0 0 0;
   

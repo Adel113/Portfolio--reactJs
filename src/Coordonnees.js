@@ -1,8 +1,8 @@
 
 
 function Coordonnees() {
-  const sectioncStyle = { padding : "50px",textAlign: "center", background : "#fff" , borderRadius : "200px 40px 40px 40px" };
-  const sectionqStyle = { background : "#fff" , borderRadius : "40px 40px 40px 200px" };
+  const sectioncStyle = { padding : "50px",textAlign: "center", background : "#0D0D0D" , borderRadius : "200px 40px 40px 40px",  boxShadow: "0px 0px 70px #fff" };
+  const sectionqStyle = { background : "#0D0D0D" , borderRadius : "40px 40px 40px 200px" , boxShadow: "0px 0px 70px #fff" };
   const cooStyle = { marginBottom : "60px"};
   const headingStyle = { textAlign: "center", fontSize: "25px" };
   const imgStyle = { marginBottom: "60px" , borderRradius: "80px" };

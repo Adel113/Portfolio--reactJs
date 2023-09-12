@@ -2,7 +2,7 @@
 const Pstyle = {marginBottom: "60px" , border: "4px solid black", borderRadius: "40px", padding: "10px"};
 
 const estyle = {color: "red"};
-const sectionEStyle = { padding : "50px",  background : "#fff" , borderRadius : "40px 40px 40px 200px" };
+const sectionEStyle = { padding : "50px",  background : "#0D0D0D" , borderRadius : "40px 40px 40px 200px" ,  boxShadow: "0px 0px 70px #fff"};
 
 
 
@@ -32,7 +32,7 @@ function ExperiencesPro (){
               <div className="row">
                 <div className="col-md-4">
                   
-                  <ul >
+                  <ul className="ligne">
                     <li>
                       <h3 >
                          Employé Polyvalent en Restaurant Pizzeria<span> (08/2023-à ce jour)</span>
@@ -46,7 +46,7 @@ function ExperiencesPro (){
                 </div>
                 <div className="col-md-4">
                   
-                  <ul>
+                  <ul className="ligne">
                     <li>
                       <h3 >
                         Graphiste designer<span> (2018-2022)</span>
@@ -60,7 +60,7 @@ function ExperiencesPro (){
                 </div>
                 <div className="col-md-4">
                   
-                  <ul>
+                  <ul className="ligne">
                     <li>
                       <h3 >
                         spécialiste du flockage<span> (2018-2022)</span>
@@ -74,7 +74,7 @@ function ExperiencesPro (){
                 </div>
                 <div className="col-md-4">
                   
-                  <ul>
+                  <ul className="ligne">
                     <li>
                       <h3>
                        Propriétaire d'un Magasin de Crêpes et Glaces <span> 2019-2022</span>
@@ -89,7 +89,7 @@ function ExperiencesPro (){
                 </div>
                 <div className="col-md-4">
                   
-                  <ul>
+                  <ul className="ligne">
                     <li>
                       <h3>
                        Entraîneur de Vo-Vietnam<span> 2018-2022</span>

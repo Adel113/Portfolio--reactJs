@@ -12,8 +12,9 @@ export function scrollToElement(elementId) {
 }
 
 function Navbar() {
+  const navstyle={ boxShadow: "0px 0px 70px #fff"};
   return (
-    <div className="dashboard-nav">
+    <div className="dashboard-nav" style={navstyle}>
       <header>
         <a href="#domaine" className="brand-logo">
           <img className="menuasa" src="pictures/coordonnees/ADELCV.PNG" alt="" />

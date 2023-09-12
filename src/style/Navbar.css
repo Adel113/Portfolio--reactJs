@@ -6,7 +6,7 @@
     top: 0;
     bottom: 0;
     overflow: auto;
-    background: #ffffff;
+    background: #0d0d0d;
   
   }
   
@@ -16,11 +16,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
   
   
   .dashboard-nav a {
-    color: #030000;
+    
+    
+    background: #000;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    color: #f4f4f4;
+    transition: transform 0.3s; 
+  }
+  .dashboard-nav a:hover{
+    transform: scale(1.2);
   }
   
   .brand-logo {
@@ -43,6 +53,7 @@
   }
   
   .dashboard-nav-list  {
+    padding: 25px;
     margin-top: 75%;
     display: flex;
     flex-direction: column;

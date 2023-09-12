@@ -4,7 +4,7 @@
   justify-content: center; /* Centrer horizontalement */
   align-items: center;
   background: transparent;
-  color: #000000;
+  color: #fbfbfb;
 }
 
 .dashboard-app {
@@ -36,7 +36,7 @@
 
 h1{
     font-size: 50px;
-    color: #010101;
+    color: #fefefe;
     text-align: center;
     margin-bottom: 50px;
     
@@ -59,7 +59,7 @@ h1{
   padding: 20px ;
   border-radius: 50px ;
   list-style: none;
-  background: #f8d300;
+  background: #000000;
   
 }
   

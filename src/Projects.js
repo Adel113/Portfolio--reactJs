@@ -47,9 +47,9 @@ class Projects extends React.Component {
 
   render() {
     const { activeIndex, items } = this.state;
-    const styles = {marginTop : "60px" , background: "#fff" , borderRadius: "200px 0px 0px 40px" , marginBottom: "60px"  };
+    const styles = {marginTop : "60px" , background: "#0D0D0D" , borderRadius: "200px 40px 40px 40px" , marginBottom: "60px" ,  boxShadow: "0px 0px 70px #fff"};
     const imgStyle = {margin : "auto", padding : "20px"};
-    const buttionStyle = {backgrpund : "#0000"};
+  
 
     return (
       
@@ -73,7 +73,7 @@ class Projects extends React.Component {
         <a  href="a" className="carousel-control-prev" onClick={this.prevSlide}>
           <span  className="carousel-control-prev-icon"></span>
         </a>
-        <a href="d" className="carousel-control-next bg-dark br-4" onClick={this.nextSlide} style={buttionStyle}>
+        <a href="d" className="carousel-control-next " onClick={this.nextSlide} >
           <span className="carousel-control-next-icon"></span>
         </a>
       </div>

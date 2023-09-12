@@ -2,7 +2,7 @@
 
 const pStyle = {marginBottom: "60px"}
 
-const sectionFStyle = { padding : "50px",  background : "#fff" , borderRadius : "200px 40px 40px 40px"  };
+const sectionFStyle = { padding : "50px",  background : "#0D0D0D" , borderRadius : "200px 40px 40px 40px" ,  boxShadow: "0px 0px 70px #fff" };
 
 
 function Formations(){
@@ -92,7 +92,7 @@ function Formations(){
                         </div>
                         <div className="col-md-4">
                           
-                          <ul >
+                          <ul className="ligne">
                             <li>
                               <h3>
                                 Bac +2 ENIGMA Lille <span>2023-2024</span>

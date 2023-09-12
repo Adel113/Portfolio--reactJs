@@ -1,7 +1,7 @@
 function Competences() {
 
   const H2Style = { textAlign: "center" , marginTop: "10px" };
-  const sectionCStyle = { padding : "50px",  background : "#fff" , borderRadius : "40px 40px 40px 200px" };
+  const sectionCStyle = { padding : "50px",  background : "#0D0D0D" , borderRadius : "40px 40px 40px 200px", boxShadow: "0px 0px 70px #fff" };
 
   return (
     <div>
