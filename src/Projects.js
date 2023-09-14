@@ -70,12 +70,12 @@ class Projects extends React.Component {
             </div>
           ))}
         </div>
-        <a  href="a" className="carousel-control-prev" onClick={this.prevSlide}>
+        <i className="carousel-control-prev" onClick={this.prevSlide}>
           <span  className="carousel-control-prev-icon"></span>
-        </a>
-        <a href="d" className="carousel-control-next " onClick={this.nextSlide} >
+        </i>
+        <i className="carousel-control-next " onClick={this.nextSlide} >
           <span className="carousel-control-next-icon"></span>
-        </a>
+        </i>
       </div>
     );
   }

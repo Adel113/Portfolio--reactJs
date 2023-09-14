@@ -50,31 +50,31 @@ function Coordonnees() {
               <a href="https://www.google.com/maps/place/59155+Faches-Thumesnil/@50.5955681,3.0713515,14z/data=!3m1!4b1!4m6!3m5!1s0x47c2d4356fdfaf7b:0x1c0af141f1250070!8m2!3d50.5948385!4d3.0735552!16s%2Fg%2F1tcwq8xs?entry=ttu">Lille,59155</a>
             </h2>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 col">
             <img alt="mail" src="pictures/coordonnees/gmail.png" />
             <h2 style={headingStyle}>
-              <a href="mailto:adelsidiahmed2020@gmail.com">adelsidiahmed2020@gmail.com</a>
+              <a className="mail" href="mailto:adelsidiahmed2020@gmail.com">adelsidiahmed2020@gmail.com</a>
             </h2>      
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 col">
             <img alt="numéro" src="pictures/coordonnees/telephone.png" />
             <h2 style={headingStyle}>
               <a href="tel:+33761535757">0761535757</a>
             </h2>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 col">
             <img alt="github" src="pictures/coordonnees/github-logo.png" />
             <h2 style={headingStyle}>
               <a href="https://github.com/Adel113">Adel113</a>
             </h2>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 col">
             <img alt="linkedin" src="pictures/coordonnees/linkedin.png" />
             <h2 style={headingStyle}>
               <a href="https://www.linkedin.com/in/adel-sidi-ahmed/">Adel SIDI AHMED</a>
             </h2>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 col">
             <img alt="age" src="pictures/coordonnees/joyeux-anniversaire.png" />
             <h2 style={headingStyle}>
               <a href="20">20 ans</a>

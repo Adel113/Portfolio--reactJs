@@ -52,6 +52,7 @@ function Competences() {
               JS
             </h2>
           </div>
+          
           <div className="col-md-4">
             <img alt="react" src="pictures/competences/react.png" />
             <h2 style={H2Style}>
@@ -59,17 +60,18 @@ function Competences() {
             </h2>
           </div>
           <div className="col-md-4">
+            <img alt="react" src="pictures/competences/nextjs.png" />
+            <h2 style={H2Style}>
+              NextJs
+            </h2>
+          </div>  
+          <div className="col-md-4">
             <img alt="sql" src="pictures/competences/serveur-sql.png" />
             <h2 style={H2Style}>
               SQL
             </h2>
           </div>
-          <div className="col-md-4">
-            <img alt="java" src="pictures/competences/java.png" />
-            <h2 style={H2Style}>
-              JAVA
-            </h2>
-          </div>
+          
           <div className="col-md-4">
             <img alt="git" src="pictures/competences/git..png" />
             <h2 style={H2Style}>
@@ -82,16 +84,35 @@ function Competences() {
               GitHub
             </h2>
           </div>
-          <div className="col-md-4">
-            <img alt="ccna1" src="pictures/competences/ccna.png" />
-            <h2 style={H2Style}>
-              CCNA1
-            </h2>
-          </div>
+          
           <div className="col-md-4">
             <img alt="wordpress" src="pictures/competences/wordpress.png" />
             <h2 style={H2Style}>
               Wordpress
+            </h2>
+          </div>
+          <div className="col-md-4">
+            <img alt="wordpress" src="pictures/competences/shopify.png" />
+            <h2 style={H2Style}>
+              Shopify
+            </h2>
+          </div>
+          <div className="col-md-4">
+            <img alt="java" src="pictures/competences/java.png" />
+            <h2 style={H2Style}>
+              JAVA
+            </h2>
+          </div>
+          <div className="col-md-4">
+            <img alt="java" src="pictures/competences/C.png" />
+            <h2 style={H2Style}>
+              C
+            </h2>
+          </div>
+          <div className="col-md-4">
+            <img alt="ccna1" src="pictures/competences/ccna.png" />
+            <h2 style={H2Style}>
+              CCNA1
             </h2>
           </div>
           <div className="col-md-4">

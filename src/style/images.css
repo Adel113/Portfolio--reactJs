@@ -51,10 +51,7 @@
     grid-template-columns: repeat(2, 1fr); /* 2 images par ligne */
     gap: 20px;/* Espacement entre les images */
   }
-  .row.coordonnees img {
-    max-width: 100%;
-    
-  }
+ 
 
   .coordonnees a {
     font-size: 9px;

@@ -13,13 +13,9 @@
 
 /* Définition des variables CSS personnalisées */
 :root {
-  
-
-  
   --nav-width: 68px;
   --first-color-light: #2f188e;
   --white-color: #3000f2;
- 
   --normal-font-size: 1rem;
   --z-fixed: 100;
 }
@@ -32,14 +28,9 @@
 /* Styles de base pour le corps de la page */
 body {
   background: #000;
-  
-  
- 
   margin: var(--header-height) 0 0 0;
-  
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  
 }
 
 /* Styles de base pour les liens */
@@ -52,8 +43,7 @@ a {
 
 /* Media query pour les écrans de largeur supérieure à 768px */
 @media screen and (max-width: 882px) {
-  
-  body {
+   body {
     margin: calc(var(--header-height) + 1rem) 0 0 0;
     padding-left: calc(var(--nav-width) + 0.01rem);
     padding-right: calc(var(--nav-width) + 0.01rem);
@@ -69,7 +59,8 @@ a {
   }
   
 }
-@media screen and (min-width: 780px){
+@media screen and (max-width: 780px){
+  
   .name{
     text-align: center;
   }
@@ -84,6 +75,7 @@ a {
     font-size: 10px;
     text-align: center;
   }
+  
   body {
     font-size: 10px;
     margin: calc(var(--header-height) + 2rem) 0 0 0;

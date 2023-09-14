@@ -37,6 +37,7 @@
       margin: 0;
       background: #cec0c0;
       border-radius: 10px;
+       
       
     }
     
@@ -45,6 +46,11 @@
       align-items: center;
       margin-bottom: 10px;
       width: 40px; /* Espacement entre les éléments de la liste */
+      transition: transform 0.3s;
+    }
+    .nav-mobile li:hover{
+      transform: scale(1.2);
+
     }
     .nav-mobile img {
       
