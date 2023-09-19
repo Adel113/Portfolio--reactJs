@@ -54,13 +54,13 @@ function Navbar() {
         </a>
         <a href="#projets" onClick={() => scrollToElement('projets')} className="dashboard-nav-item" id="ExperiencesLink">
           <i className="">
-            <img alt="linkedin" src="pictures/navmobile/experiences.png" />
+            <img alt="linkedin" src="pictures/navmobile/prj.png" />
           </i>
           PROJETS
         </a>
         <a href="#certifications" onClick={() => scrollToElement('Certifications')} className="dashboard-nav-item" id="ExperiencesLink">
           <i className="">
-            <img alt="linkedin" src="pictures/navmobile/experiences.png" />
+            <img alt="linkedin" src="pictures/navmobile/crt.png" />
           </i>
           CERTIFICATIONS
         </a>
