@@ -4,6 +4,7 @@ import Coordonnees from "./Coordonnees";
 import Formations from "./Formations";
 import ExperiencesPro from "./ExperiencesPro";
 import Projects from "./Projects";
+import Certificat from "./Certificat";
 
 function dashboardContent() {
     return (
@@ -14,6 +15,8 @@ function dashboardContent() {
             <Formations />
             <ExperiencesPro />
             <Projects/>
+            <Certificat/>
+            
             
             
         </div>

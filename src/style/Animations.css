@@ -119,16 +119,10 @@
 
   /***  ****/
 
-
-
-
   .ligne{
         transition: transform 0.3s box-shadow 0.3s;  
 
   }
-
-
-
   .ligne:hover{
      transform: scale(1.2);
      box-shadow: 15px 15px 15px #fff;

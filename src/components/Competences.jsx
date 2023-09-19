@@ -7,12 +7,6 @@ function Competences() {
     <div>
       <div className="row">
         <div className="col-md-12">
-          <h2 style={H2Style}>
-            Titre
-          </h2>
-          <p style={H2Style}>
-            Donec id elit non mi porta gravida at eget metus...
-          </p>
           <div className="animation-trigger">
             <div className="row">
               <div className="col-md-12">

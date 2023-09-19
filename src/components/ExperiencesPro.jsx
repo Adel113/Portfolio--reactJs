@@ -1,7 +1,7 @@
 
 const Pstyle = {marginBottom: "60px" , border: "4px solid black", borderRadius: "40px", padding: "10px"};
 
-const estyle = {color: "red"};
+
 const sectionEStyle = { padding : "50px",  background : "#0D0D0D" , borderRadius : "40px 40px 40px 200px" ,  boxShadow: "0px 0px 70px #fff"};
 
 
@@ -23,7 +23,7 @@ function ExperiencesPro (){
           <div className="row "  >
             <div className="col-md-12 expos">
               <h2>
-              <span style={estyle}>E</span>XPÉRIENCES PROFISSIONNELLES
+              EXPÉRIENCES PROFISSIONNELLES
               </h2>
               <p style={Pstyle}>
               Ces différentes expériences professionnelles témoignent de ma polyvalence, de ma capacité à m'adapter à différents domaines et de mon engagement à acquérir de nouvelles compétences pour exceller dans chaque rôle. En tant qu'entraîneur de Vo-Vietnam, j'ai développé des compétences en communication et en enseignement. En tant que propriétaire d'un magasin de crêpes et glaces, j'ai acquis une expérience solide en gestion d'entreprise. Mon rôle en tant que spécialiste du flockage m'a permis de perfectionner mon attention aux détails et mon expertise technique en matière de revêtements. En tant que graphiste designer, j'ai su donner vie à des idées créatives grâce à des outils numériques. Enfin, mon expérience en tant qu'employé polyvalent en restaurant pizzeria démontre ma capacité à travailler dans le secteur de la restauration avec succès.

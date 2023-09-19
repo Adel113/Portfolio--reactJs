@@ -62,5 +62,27 @@ h1{
   background: #000000;
   
 }
+
+.imgcrt{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
   
+}
+.imgcrt img{
+  width: 100%;
+  padding: 10px;
+ }
+
+
+
+@media screen and (max-width: 768px){
+  .imgcrt img{
+   width: 100%;
+  }
+  
+}
+
+
+
   

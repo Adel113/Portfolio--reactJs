@@ -1,8 +1,8 @@
 
 
 import 'bootstrap/dist/css/bootstrap.css';
-import Dashboard from './Dashboard';
-import NavMobile from './NavMobile';
+import Dashboard from './components/Dashboard';
+import NavMobile from './components/NavMobile';
 
 import './style/Body.css';
 import './style/Dashboard.css';

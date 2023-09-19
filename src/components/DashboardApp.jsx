@@ -7,8 +7,7 @@ import DashboardContent from './DashboardContent';
 function DashboardApp() {
   return (
     <div className='dashboard-app'>
-      <DashboardContent />
-      
+      <DashboardContent />  
     </div>
   );
 }

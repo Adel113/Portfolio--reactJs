@@ -1,4 +1,4 @@
-import App from "./App";
+
 
 function isElementInViewport(element) {
     var rect = element.getBoundingClientRect();

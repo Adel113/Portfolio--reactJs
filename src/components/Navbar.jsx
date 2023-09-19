@@ -1,7 +1,7 @@
 
 
-import './style/Navbar.css';
-import './style/Dashboard.css';
+import '../style/Navbar.css';
+import '../style/Dashboard.css';
 
 
 export function scrollToElement(elementId) {
@@ -51,6 +51,18 @@ function Navbar() {
             <img alt="linkedin" src="pictures/navmobile/experiences.png" />
           </i>
           EXPÉRIENCES
+        </a>
+        <a href="#projets" onClick={() => scrollToElement('projets')} className="dashboard-nav-item" id="ExperiencesLink">
+          <i className="">
+            <img alt="linkedin" src="pictures/navmobile/experiences.png" />
+          </i>
+          PROJETS
+        </a>
+        <a href="#certifications" onClick={() => scrollToElement('Certifications')} className="dashboard-nav-item" id="ExperiencesLink">
+          <i className="">
+            <img alt="linkedin" src="pictures/navmobile/experiences.png" />
+          </i>
+          CERTIFICATIONS
         </a>
       </nav>
     </div>
