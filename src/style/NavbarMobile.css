@@ -4,7 +4,7 @@
   }
 
 
-/* Styles pour afficher les icônes à partir de 992px */
+
 @media screen and (max-width: 992px) {
  
     .nav-mobile  {
@@ -13,13 +13,13 @@
       margin-right: 10px;
     }
     .nav-mobile {
-      position: fixed; /* La barre reste en position fixe */
-      top: 50%; /* La moitié de la hauteur de la fenêtre */
-      transform: translateY(-50%); /* Pour centrer verticalement */
-      left: 0; /* À gauche de la fenêtre */
-      background-color: #6b646400; /* Couleur de fond de la barre */
-      padding: 20px; /* Espacement interne */
-       /* Ombre légère */
+      position: fixed; 
+      top: 50%; 
+      transform: translateY(-50%); 
+      left: 0; 
+      background-color: #6b646400; 
+      padding: 20px; 
+
     }
     
     /* Styles pour la liste d'icônes */
@@ -37,7 +37,7 @@
       display: flex;
       align-items: center;
       margin-bottom: 10px;
-      width: 40px; /* Espacement entre les éléments de la liste */
+      width: 40px; 
       transition: transform 0.3s;
     }
     .nav-mobile li:hover{
@@ -47,6 +47,6 @@
     .nav-mobile img {
       
       margin-bottom: 10px;
-      width: 40px; /* Espacement entre les éléments de la liste */
+      width: 40px; 
     }
   }
