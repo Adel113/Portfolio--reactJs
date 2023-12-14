@@ -8,7 +8,6 @@ import './style/Dashboard.css';
 import './style/images.css';
 import './style/NavbarMobile.css';
 import './style/Navbar.css';
-import './style/Animations.css';
 
 function App() {
   return (
