@@ -1,5 +1,3 @@
-/** @format */
-
 import "../style/Navbar.css";
 import "../style/Dashboard.css";
 

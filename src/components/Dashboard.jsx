@@ -1,5 +1,3 @@
-/** @format */
-
 import Navbar from "./Navbar";
 import Competences from "./Competences";
 import Coordonnees from "./Coordonnees";
