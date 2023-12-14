@@ -1,5 +1,3 @@
-/** @format */
-
 function Competences() {
   const H2Style = { textAlign: "center", marginTop: "10px" };
   const sectionCStyle = {
