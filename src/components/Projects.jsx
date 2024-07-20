@@ -10,28 +10,33 @@ class Projects extends React.Component {
         // Liste des éléments du carousel
         {
           id: 1,
-          src: "pictures/pEtC/weather-app.png",
-          caption: "weather app whith React js",
+          src: "pictures/pEtC/lou.png",
+          url: "https://chez-lou.fr/",
         },
         {
           id: 2,
-          src: "pictures/pEtC/nextcv.png",
-          caption: "CV whith Nextjs",
+          src: "pictures/pEtC/weather-app.png",
+          url: "https://weather-app-asa.netlify.app",
         },
         {
           id: 3,
-          src: "pictures/pEtC/recatcv.png",
-          caption: "Portfolio whith Recatjs",
+          src: "pictures/pEtC/nextcv.png",
+          url: "https://example.com/cv-nextjs",
         },
         {
           id: 4,
-          src: "pictures/pEtC/cx1.png",
-          caption: "convertisseur d-unité ",
+          src: "pictures/pEtC/recatcv.png",
+          url: "https://portfolio-adel-sidiahmed.netlify.app",
         },
         {
           id: 5,
+          src: "pictures/pEtC/cx1.png",
+          url: "https://example.com/cv-nextjs",
+        },
+        {
+          id: 6,
           src: "pictures/pEtC/cx2.png",
-          caption: "convertisseur d-unité",
+          url: "https://example.com/cv-nextjs",
         },
       ],
     };
@@ -98,15 +103,16 @@ class Projects extends React.Component {
                   className={`carousel-item ${
                     index === activeIndex ? "active" : ""
                   }`}>
-                  <img
-                    src={item.src}
-                    alt={item.alt}
-                    className="d-block w-100"
-                    style={imgStyle}
-                  />
-                  <div className="carousel-caption">
-                    <h3 style={H2zCStyle}>{item.caption}</h3>
-                  </div>
+                  <a href={item.url} target="_blank" rel="noopener noreferrer">
+                    <img
+                      src={item.src}
+                      alt={`Project ${item.id}`}
+                      className="d-block w-100"
+                      style={imgStyle}
+                    />
+                  </a>
+                
+                  
                 </div>
               ))}
             </div>

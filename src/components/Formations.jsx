@@ -30,15 +30,7 @@ function Formations() {
           <div className="col-md-12 expos">
             <h2>FORMATIONS</h2>
             <p style={pStyle}>
-              J'ai obtenu un baccalauréat en mathématiques avec mention bien,
-              mais ai rapidement réalisé que ma véritable passion était
-              l'informatique. J'ai donc décidé de me réorienter, validant ma
-              première année en informatique et effectuant un stage de deux mois
-              en tant que développeur web. Mon parcours académique et mon
-              expérience en stage ont renforcé ma passion pour l'informatique et
-              m'ont permis d'acquérir des compétences essentielles dans ce
-              domaine. Je suis maintenant enthousiaste à l'idée de continuer à
-              développer ma carrière dans le monde de la technologie.
+              Après un baccalauréat en mathématiques avec mention bien, j'ai découvert ma véritable passion pour l'informatique, ce qui m'a conduit à me réorienter dans ce domaine. Mon parcours en informatique et mes expériences professionnelles m'ont permis d'acquérir des compétences solides et de confirmer mon enthousiasme pour la technologie. Je suis maintenant déterminé à poursuivre et à développer ma carrière dans ce secteur dynamique.
             </p>
 
             <div className="row">
@@ -108,47 +100,7 @@ function Formations() {
                   </li>
                 </ul>
               </div>
-              <div className="col-md-4 ">
-                <ul className="ligne">
-                  <li>
-                    <h3>
-                      Stage en Dev Web <span> (06/2023-08/2023)</span>
-                    </h3>
-                  </li>
-                  <li>
-                    Participation à la conception et au développement de sites
-                    web et d'applications web
-                  </li>
-                  <li>
-                    Programmation en utilisant des langages de développement web
-                    tels que HTML, CSS, JavaScript, et d'autres langages
-                    pertinents.
-                  </li>
-                  <li>
-                    Création et refonte de sites internet pour une expérience
-                    utilisateur optimale.
-                  </li>
-                  <li>
-                    {" "}
-                    Utilisation de Photoshop et Canva pour concevoir des visuels
-                    percutants et attrayants.
-                  </li>
-                  <li>
-                    Gestion des Réseaux Sociaux pour promouvoir les projets et
-                    établir des liens durables avec les utilisateurs et clients.
-                  </li>
-                  <li>
-                    - Maîtrise des techniques SEO (Search Engine Optimization)
-                    pour une meilleure visibilité sur les moteurs de recherche.
-                  </li>
 
-                  <li>
-                    Objectif : créer une présence en ligne captivante et
-                    efficace en respectant les meilleures pratiques du web et en
-                    suivant les dernières tendances numériques.
-                  </li>
-                </ul>
-              </div>
               <div className="col-md-4">
                 <ul className="ligne">
                   <li>
@@ -156,8 +108,50 @@ function Formations() {
                       Bac +2 ENIGMA Lille <span>2023-2024</span>
                     </h3>
                   </li>
-                  <li>En Cours</li>
+                  <li>
+                    Formation complète en développement web et technologies numériques avancées.
+                  </li>
+                  <li>
+                    Apprentissage approfondi de divers langages de programmation modernes, tels que Next.js et C#.
+                  </li>
+                  <li>
+                    Développement de compétences pratiques en création d'applications web et de logiciels.
+                  </li>
+                  <li>
+                    Préparation aux défis du développement logiciel dans un environnement professionnel dynamique.
+                  </li>
+                  <li>
+                    Exploration de nouvelles technologies et méthodologies pour rester à la pointe de l'innovation.
+                  </li>
                 </ul>
+              </div>
+
+              <div className="col-md-4">
+              <ul className="ligne">
+                <li>
+                  <h3>
+                    Licence 3 Informatique - Parcours Informatique des Systèmes Embarqués et Interactifs <span>2024-2025</span>
+                  </h3>
+                </li>
+                <li>
+                  Formation spécialisée dans les systèmes embarqués et les interfaces interactives.
+                </li>
+                <li>
+                  Acquisition de compétences en développement de logiciels pour systèmes embarqués et applications interactives.
+                </li>
+                <li>
+                  Apprentissage approfondi des langages et outils spécifiques comme C, C++, et Python pour le développement embarqué.
+                </li>
+                <li>
+                  Réalisation de projets pratiques intégrant la conception et la mise en œuvre de systèmes embarqués.
+                </li>
+                <li>
+                  Développement de compétences en conception d'interfaces utilisateur et en interaction homme-machine.
+                </li>
+                <li>
+                  Préparation à des défis techniques avancés à travers des études de cas et des projets en collaboration avec l'industrie.
+                </li>
+              </ul>
               </div>
             </div>
           </div>

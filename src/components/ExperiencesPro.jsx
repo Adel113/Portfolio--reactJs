@@ -56,28 +56,65 @@ function ExperiencesPro() {
                 <ul className="ligne">
                   <li>
                     <h3>
-                      Employé Polyvalent en Restaurant Pizzeria
-                      <span> (08/2023-à ce jour)</span>
+                      Stage chez Lou <span>(05/2024 - 07/2024)</span>
                     </h3>
                   </li>
                   <li>
-                    Prise de commandes des clients, traitement des réservations
-                    et fourniture de recommandations de menu
+                    Conception et développement d'un site web pour un restaurant en utilisant WordPress.
                   </li>
                   <li>
-                    Préparation et service des plats, y compris la préparation
-                    de pizzas, de pâtes et d'autres spécialités.
+                    Intégration des meilleures pratiques en SEO (Search Engine Optimization) pour optimiser la visibilité sur les moteurs de recherche.
                   </li>
                   <li>
-                    Gestion des transactions financières, y compris
-                    l'encaissement et la manipulation des paiements.
+                    Application des principes de graphisme pour créer un design attrayant et fonctionnel, en respectant les standards du web.
                   </li>
                   <li>
-                    Entretien des normes d'hygiène alimentaire, de propreté et
-                    de sécurité dans la salle à manger et la cuisine.
+                    Mise en œuvre de bonnes pratiques du développement web pour garantir une expérience utilisateur optimale et une performance élevée.
+                  </li>
+                  <li>
+                    Utilisation de logiciels de design pour élaborer des visuels percutants et cohérents avec l'identité du restaurant.
                   </li>
                 </ul>
               </div>
+
+
+              <div className="col-md-4 ">
+                <ul className="ligne">
+                  <li>
+                    <h3>
+                      Stage en Dev Web <span> (06/2023-08/2023)</span>
+                    </h3>
+                  </li>
+                  <li>
+                    Participation à la conception et au développement de sites
+                    web et d'applications web
+                  </li>
+                  <li>
+                    Programmation en utilisant des langages de développement web
+                    tels que HTML, CSS, JavaScript, et d'autres langages
+                    pertinents.
+                  </li>
+                  <li>
+                    Création et refonte de sites internet pour une expérience
+                    utilisateur optimale.
+                  </li>
+                  <li>
+                    {" "}
+                    Utilisation de Photoshop et Canva pour concevoir des visuels
+                    percutants et attrayants.
+                  </li>
+                  <li>
+                    Gestion des Réseaux Sociaux pour promouvoir les projets et
+                    établir des liens durables avec les utilisateurs et clients.
+                  </li>
+                  <li>
+                    - Maîtrise des techniques SEO (Search Engine Optimization)
+                    pour une meilleure visibilité sur les moteurs de recherche.
+                  </li>
+                </ul>
+              </div>
+              
+
               <div className="col-md-4">
                 <ul className="ligne">
                   <li>
@@ -137,6 +174,59 @@ function ExperiencesPro() {
                 <ul className="ligne">
                   <li>
                     <h3>
+                      Entraîneur de Vo-Vietnam<span> 2018-2022</span>
+                    </h3>
+                  </li>
+                  <li>
+                    Enseignement des techniques de Vo-Vietnam à des élèves de
+                    tous âges et niveaux de compétence.
+                  </li>
+                  <li>
+                    Organisation et supervision d'entraînements réguliers pour
+                    améliorer la force, la souplesse, la coordination et les
+                    compétences en autodéfense des élèves.
+                  </li>
+                  <li>
+                    Préparation des élèves pour des compétitions locales,
+                    nationales ou internationales, le cas échéant.
+                  </li>
+                  <li>
+                    Mise en place de programmes de formation personnalisés pour
+                    les élèves et suivi de leur progression.
+                  </li>
+                </ul>
+              </div>
+
+              <div className="col-md-4">
+                <ul className="ligne">
+                  <li>
+                    <h3>
+                      Employé Polyvalent en Restaurant Pizzeria
+                      <span> (08/2023-à ce jour)</span>
+                    </h3>
+                  </li>
+                  <li>
+                    Prise de commandes, traitement des réservations
+                    et fourniture de recommandations de menu.
+                  </li>
+                  <li>
+                    Préparation et service des plats, y compris la préparation
+                    de pizzas, de pâtes et d'autres spécialités.
+                  </li>
+                  <li>
+                    Gestion des transactions financières, y compris
+                    l'encaissement et la manipulation des paiements.
+                  </li>
+                  <li>
+                    Entretien des normes d'hygiène alimentaire, de propreté et
+                    de sécurité dans la salle à manger.
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-4">
+                <ul className="ligne">
+                  <li>
+                    <h3>
                       Propriétaire d'un Magasin de Crêpes et Glaces{" "}
                       <span> 2019-2022</span>
                     </h3>
@@ -161,32 +251,7 @@ function ExperiencesPro() {
                   </li>
                 </ul>
               </div>
-              <div className="col-md-4">
-                <ul className="ligne">
-                  <li>
-                    <h3>
-                      Entraîneur de Vo-Vietnam<span> 2018-2022</span>
-                    </h3>
-                  </li>
-                  <li>
-                    Enseignement des techniques de Vo-Vietnam à des élèves de
-                    tous âges et niveaux de compétence.
-                  </li>
-                  <li>
-                    Organisation et supervision d'entraînements réguliers pour
-                    améliorer la force, la souplesse, la coordination et les
-                    compétences en autodéfense des élèves.
-                  </li>
-                  <li>
-                    Préparation des élèves pour des compétitions locales,
-                    nationales ou internationales, le cas échéant.
-                  </li>
-                  <li>
-                    Mise en place de programmes de formation personnalisés pour
-                    les élèves et suivi de leur progression.
-                  </li>
-                </ul>
-              </div>
+              
             </div>
           </div>
         </div>
