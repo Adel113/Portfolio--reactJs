@@ -70,12 +70,7 @@ class Projects extends React.Component {
     };
     const imgStyle = { margin: "auto", padding: "20px" };
     const H2CStyle = { textAlign: "center", marginBottom: "60px" };
-    const H2zCStyle = {
-      textAlign: "center",
-      backgroundColor: "#fff",
-      borderRadius: "60px",
-      color: "#000",
-    };
+    
 
     return (
       <div className="">
