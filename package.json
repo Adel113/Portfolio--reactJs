@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@ionic/react": "^8.4.1",
-    "@testing-library/jest-dom": "^6.6.5",
+    "@ionic/react": "^7.6.1",
+    "@testing-library/jest-dom": "^6.1.5",
     "@testing-library/react": "^14.1.2",
     "@testing-library/user-event": "^14.5.1",
     "bootstrap": "^5.3.2",
