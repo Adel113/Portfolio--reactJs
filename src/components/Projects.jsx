@@ -11,33 +11,26 @@ class Projects extends React.Component {
         {
           id: 1,
           src: "pictures/pEtC/lou.png",
-          url: "https://chez-lou.fr/",
+
+          caption: "Site restaurant-Wordpress",
         },
         {
           id: 2,
-          src: "pictures/pEtC/weather-app.png",
-          url: "https://weather-app-asa.netlify.app",
+          src: "pictures/pEtC/fitapp.png",
+          caption: "FitnessApp-kotlin",
         },
         {
           id: 3,
-          src: "pictures/pEtC/nextcv.png",
-          url: "https://example.com/cv-nextjs",
+          src: "pictures/pEtC/gta.png",
+          caption: "GameGTA2-Python ",
         },
         {
           id: 4,
-          src: "pictures/pEtC/recatcv.png",
-          url: "https://portfolio-adel-sidiahmed.netlify.app",
+          src: "pictures/pEtC/weather-app.png",
+          caption: "weatherApp-React js",
+
         },
-        {
-          id: 5,
-          src: "pictures/pEtC/cx1.png",
-          url: "https://example.com/cv-nextjs",
-        },
-        {
-          id: 6,
-          src: "pictures/pEtC/cx2.png",
-          url: "https://example.com/cv-nextjs",
-        },
+        
       ],
     };
   }

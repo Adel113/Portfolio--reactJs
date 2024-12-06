@@ -1,5 +1,3 @@
-const pStyle = { marginBottom: "60px" };
-
 const sectionFStyle = {
   padding: "50px",
   background: "#0D0D0D",
@@ -29,55 +27,10 @@ function Formations() {
         <div className="row ">
           <div className="col-md-12 expos">
             <h2>FORMATIONS</h2>
-            <p style={pStyle}>
-              Après un baccalauréat en mathématiques avec mention bien, j'ai découvert ma véritable passion pour l'informatique, ce qui m'a conduit à me réorienter dans ce domaine. Mon parcours en informatique et mes expériences professionnelles m'ont permis d'acquérir des compétences solides et de confirmer mon enthousiasme pour la technologie. Je suis maintenant déterminé à poursuivre et à développer ma carrière dans ce secteur dynamique.
-            </p>
+
 
             <div className="row">
-              <div className="col-md-4 ">
-                <ul className="ligne">
-                  <li>
-                    <h3>
-                      Baccalaureat Mathématiques <span> (2020-2021)</span>
-                    </h3>
-                  </li>
-                  <li>
-                    Cours de Mathématiques et calcul function et intégral...
-                  </li>
-                  <li>
-                    Travaux pratiques en Physique , incluant des expériences en
-                    laboratoire....
-                  </li>
-                  <li>
-                    Cours théoriques et travaux dirigés (TD) en génie civil...
-                  </li>
-                  <li>Travaux dirigés (TD) en Chimie...</li>
-                  <li>Cours de langues Français - Anglais...</li>
-                </ul>
-              </div>
-              <div className="col-md-4 ">
-                <ul className="ligne">
-                  <li>
-                    <h3>
-                      Licence 1 Sciences et technologie{" "}
-                      <span> (2021-2022)</span>
-                    </h3>
-                  </li>
-                  <li>
-                    Cours de Mathématiques avancées en calcul différentiel et
-                    intégral.
-                  </li>
-                  <li>
-                    Travaux pratiques en Physique, incluant des expériences en
-                    laboratoire
-                  </li>
-                  <li>Cours théoriques et travaux dirigés (TD) en Chimie</li>
-                  <li>
-                    TD de Mathématiques pour renforcer la compréhension des
-                    concepts fondamentaux
-                  </li>
-                </ul>
-              </div>
+
               <div className="col-md-4 ">
                 <ul className="ligne">
                   <li>
@@ -101,6 +54,8 @@ function Formations() {
                 </ul>
               </div>
 
+              
+
               <div className="col-md-4">
                 <ul className="ligne">
                   <li>
@@ -109,49 +64,42 @@ function Formations() {
                     </h3>
                   </li>
                   <li>
-                    Formation complète en développement web et technologies numériques avancées.
+
+                    Programme complet et axé sur l'informatique et technologies numériques.
                   </li>
                   <li>
-                    Apprentissage approfondi de divers langages de programmation modernes, tels que Next.js et C#.
+                    Acquisition de bases solides en développement web, bases de données et C++.
+
                   </li>
+                  <li>Initiation à la gestion de projet et ses outils essentiels.</li>
                   <li>
-                    Développement de compétences pratiques en création d'applications web et de logiciels.
-                  </li>
-                  <li>
-                    Préparation aux défis du développement logiciel dans un environnement professionnel dynamique.
-                  </li>
-                  <li>
-                    Exploration de nouvelles technologies et méthodologies pour rester à la pointe de l'innovation.
+
+                    Exploration d'opportunités en technologies modernes et innovantes.
                   </li>
                 </ul>
               </div>
 
               <div className="col-md-4">
-              <ul className="ligne">
-                <li>
-                  <h3>
-                    Licence 3 Informatique - Parcours Informatique des Systèmes Embarqués et Interactifs <span>2024-2025</span>
-                  </h3>
-                </li>
-                <li>
-                  Formation spécialisée dans les systèmes embarqués et les interfaces interactives.
-                </li>
-                <li>
-                  Acquisition de compétences en développement de logiciels pour systèmes embarqués et applications interactives.
-                </li>
-                <li>
-                  Apprentissage approfondi des langages et outils spécifiques comme C, C++, et Python pour le développement embarqué.
-                </li>
-                <li>
-                  Réalisation de projets pratiques intégrant la conception et la mise en œuvre de systèmes embarqués.
-                </li>
-                <li>
-                  Développement de compétences en conception d'interfaces utilisateur et en interaction homme-machine.
-                </li>
-                <li>
-                  Préparation à des défis techniques avancés à travers des études de cas et des projets en collaboration avec l'industrie.
-                </li>
-              </ul>
+                <ul className="ligne">
+                  <li>
+                    <h3>
+                      Licence 3 Informatique des systèmes embarqués - Université
+                      Paris 8 <span>2024-2025</span>
+                    </h3>
+                  </li>
+                  <li>
+                    Développement diversifié (apps mobiles, logicielles et embarquées).
+                  </li>
+                  <li>
+                    Conception et optimisation pour systèmes embarqués et informatique générale.
+                  </li>
+                  <li>Gestion de projets mobiles, web et systèmes techniques avancés.</li>
+                  <li>
+                    Bases en électronique pour intégration matériel et logiciel performante.
+                  </li>
+
+                </ul>
+
               </div>
             </div>
           </div>

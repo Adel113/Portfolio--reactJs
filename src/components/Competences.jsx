@@ -51,10 +51,7 @@ function Competences() {
             <img alt="react" src="pictures/competences/react.png" />
             <h2 style={H2Style}>ReactJs</h2>
           </div>
-          <div className="col-md-4">
-            <img alt="react" src="pictures/competences/nextjs.png" />
-            <h2 style={H2Style}>NextJs</h2>
-          </div>
+        
           <div className="col-md-4">
             <img alt="sql" src="pictures/competences/serveur-sql.png" />
             <h2 style={H2Style}>SQL</h2>
@@ -85,41 +82,10 @@ function Competences() {
             <img alt="java" src="pictures/competences/C.png" />
             <h2 style={H2Style}>C</h2>
           </div>
-          <div className="col-md-4">
-            <img alt="ccna1" src="pictures/competences/ccna.png" />
-            <h2 style={H2Style}>CCNA1</h2>
-          </div>
+          
           <div className="col-md-4">
             <img alt="figma" src="pictures/competences/figma.png" />
             <h2 style={H2Style}>Figma</h2>
-          </div>
-          <div className="col-md-4">
-            <img alt="canva" src="pictures/competences/canva.png" />
-            <h2 style={H2Style}>Canva</h2>
-          </div>
-          <div className="col-md-4">
-            <img alt="photoshop" src="pictures/competences/photoshop.png" />
-            <h2 style={H2Style}>Photoshop</h2>
-          </div>
-          <div className="col-md-4">
-            <img alt="adobe" src="pictures/competences/adobe-illustrator.png" />
-            <h2 style={H2Style}>Adobe-illustrartor</h2>
-          </div>
-          <div className="col-md-4">
-            <img alt="indesign" src="pictures/competences/indesign.png" />
-            <h2 style={H2Style}>Indesign</h2>
-          </div>
-          <div className="col-md-4">
-            <img alt="excel" src="pictures/competences/excel.png" />
-            <h2 style={H2Style}>Excel</h2>
-          </div>
-          <div className="col-md-4">
-            <img alt="PP" src="pictures/competences/power-point.png" />
-            <h2 style={H2Style}>PowerPoint</h2>
-          </div>
-          <div className="col-md-4">
-            <img alt="word" src="pictures/competences/word.png" />
-            <h2 style={H2Style}>Word</h2>
           </div>
         </div>
       </section>
