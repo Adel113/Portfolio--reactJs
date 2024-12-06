@@ -10,29 +10,25 @@ class Projects extends React.Component {
         // Liste des éléments du carousel
         {
           id: 1,
-          src: "pictures/pEtC/weather-app.png",
-          caption: "weather app whith React js",
+          src: "pictures/pEtC/lou.png",
+          caption: "Site restaurant-Wordpress",
         },
         {
           id: 2,
-          src: "pictures/pEtC/nextcv.png",
-          caption: "CV whith Nextjs",
+          src: "pictures/pEtC/fitapp.png",
+          caption: "FitnessApp-kotlin",
         },
         {
           id: 3,
-          src: "pictures/pEtC/recatcv.png",
-          caption: "Portfolio whith Recatjs",
+          src: "pictures/pEtC/gta.png",
+          caption: "GameGTA2-Python ",
         },
         {
           id: 4,
-          src: "pictures/pEtC/cx1.png",
-          caption: "convertisseur d-unité ",
+          src: "pictures/pEtC/weather-app.png",
+          caption: "weatherApp-React js",
         },
-        {
-          id: 5,
-          src: "pictures/pEtC/cx2.png",
-          caption: "convertisseur d-unité",
-        },
+        
       ],
     };
   }

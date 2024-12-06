@@ -1,5 +1,3 @@
-const pStyle = { marginBottom: "60px" };
-
 const sectionFStyle = {
   padding: "50px",
   background: "#0D0D0D",
@@ -29,63 +27,10 @@ function Formations() {
         <div className="row ">
           <div className="col-md-12 expos">
             <h2>FORMATIONS</h2>
-            <p style={pStyle}>
-              J'ai obtenu un baccalauréat en mathématiques avec mention bien,
-              mais ai rapidement réalisé que ma véritable passion était
-              l'informatique. J'ai donc décidé de me réorienter, validant ma
-              première année en informatique et effectuant un stage de deux mois
-              en tant que développeur web. Mon parcours académique et mon
-              expérience en stage ont renforcé ma passion pour l'informatique et
-              m'ont permis d'acquérir des compétences essentielles dans ce
-              domaine. Je suis maintenant enthousiaste à l'idée de continuer à
-              développer ma carrière dans le monde de la technologie.
-            </p>
+            
 
             <div className="row">
-              <div className="col-md-4 ">
-                <ul className="ligne">
-                  <li>
-                    <h3>
-                      Baccalaureat Mathématiques <span> (2020-2021)</span>
-                    </h3>
-                  </li>
-                  <li>
-                    Cours de Mathématiques et calcul function et intégral...
-                  </li>
-                  <li>
-                    Travaux pratiques en Physique , incluant des expériences en
-                    laboratoire....
-                  </li>
-                  <li>
-                    Cours théoriques et travaux dirigés (TD) en génie civil...
-                  </li>
-                  <li>Travaux dirigés (TD) en Chimie...</li>
-                  <li>Cours de langues Français - Anglais...</li>
-                </ul>
-              </div>
-              <div className="col-md-4 ">
-                <ul className="ligne">
-                  <li>
-                    <h3>
-                      Licence 1 Sciences et technologie{" "}
-                      <span> (2021-2022)</span>
-                    </h3>
-                  </li>
-                  <li>
-                    Cours de Mathématiques avancées en calcul différentiel et
-                    intégral.
-                  </li>
-                  <li>
-                    Travaux pratiques en Physique, incluant des expériences en
-                    laboratoire
-                  </li>
-                  <li>Cours théoriques et travaux dirigés (TD) en Chimie</li>
-                  <li>
-                    TD de Mathématiques pour renforcer la compréhension des
-                    concepts fondamentaux
-                  </li>
-                </ul>
-              </div>
+
               <div className="col-md-4 ">
                 <ul className="ligne">
                   <li>
@@ -108,47 +53,7 @@ function Formations() {
                   </li>
                 </ul>
               </div>
-              <div className="col-md-4 ">
-                <ul className="ligne">
-                  <li>
-                    <h3>
-                      Stage en Dev Web <span> (06/2023-08/2023)</span>
-                    </h3>
-                  </li>
-                  <li>
-                    Participation à la conception et au développement de sites
-                    web et d'applications web
-                  </li>
-                  <li>
-                    Programmation en utilisant des langages de développement web
-                    tels que HTML, CSS, JavaScript, et d'autres langages
-                    pertinents.
-                  </li>
-                  <li>
-                    Création et refonte de sites internet pour une expérience
-                    utilisateur optimale.
-                  </li>
-                  <li>
-                    {" "}
-                    Utilisation de Photoshop et Canva pour concevoir des visuels
-                    percutants et attrayants.
-                  </li>
-                  <li>
-                    Gestion des Réseaux Sociaux pour promouvoir les projets et
-                    établir des liens durables avec les utilisateurs et clients.
-                  </li>
-                  <li>
-                    - Maîtrise des techniques SEO (Search Engine Optimization)
-                    pour une meilleure visibilité sur les moteurs de recherche.
-                  </li>
-
-                  <li>
-                    Objectif : créer une présence en ligne captivante et
-                    efficace en respectant les meilleures pratiques du web et en
-                    suivant les dernières tendances numériques.
-                  </li>
-                </ul>
-              </div>
+              
               <div className="col-md-4">
                 <ul className="ligne">
                   <li>
@@ -156,7 +61,37 @@ function Formations() {
                       Bac +2 ENIGMA Lille <span>2023-2024</span>
                     </h3>
                   </li>
-                  <li>En Cours</li>
+                  <li>
+                    Programme complet et axé sur l'informatique et technologies numériques.
+                  </li>
+                  <li>
+                    Acquisition de bases solides en développement web, bases de données et C++.
+                  </li>
+                  <li>Initiation à la gestion de projet et ses outils essentiels.</li>
+                  <li>
+                    Exploration d'opportunités en technologies modernes et innovantes.
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-4">
+                <ul className="ligne">
+                  <li>
+                    <h3>
+                      Licence 3 Informatique des systèmes embarqués - Université
+                      Paris 8 <span>2024-2025</span>
+                    </h3>
+                  </li>
+                  <li>
+                    Développement diversifié (apps mobiles, logicielles et embarquées).
+                  </li>
+                  <li>
+                    Conception et optimisation pour systèmes embarqués et informatique générale.
+                  </li>
+                  <li>Gestion de projets mobiles, web et systèmes techniques avancés.</li>
+                  <li>
+                    Bases en électronique pour intégration matériel et logiciel performante.
+                  </li>
+
                 </ul>
               </div>
             </div>
