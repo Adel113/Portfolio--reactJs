@@ -11,6 +11,7 @@ class Projects extends React.Component {
         {
           id: 1,
           src: "pictures/pEtC/lou.png",
+
           caption: "Site restaurant-Wordpress",
         },
         {
@@ -27,6 +28,7 @@ class Projects extends React.Component {
           id: 4,
           src: "pictures/pEtC/weather-app.png",
           caption: "weatherApp-React js",
+
         },
         
       ],
@@ -61,12 +63,7 @@ class Projects extends React.Component {
     };
     const imgStyle = { margin: "auto", padding: "20px" };
     const H2CStyle = { textAlign: "center", marginBottom: "60px" };
-    const H2zCStyle = {
-      textAlign: "center",
-      backgroundColor: "#fff",
-      borderRadius: "60px",
-      color: "#000",
-    };
+    
 
     return (
       <div className="">
@@ -94,15 +91,16 @@ class Projects extends React.Component {
                   className={`carousel-item ${
                     index === activeIndex ? "active" : ""
                   }`}>
-                  <img
-                    src={item.src}
-                    alt={item.alt}
-                    className="d-block w-100"
-                    style={imgStyle}
-                  />
-                  <div className="carousel-caption">
-                    <h3 style={H2zCStyle}>{item.caption}</h3>
-                  </div>
+                  <a href={item.url} target="_blank" rel="noopener noreferrer">
+                    <img
+                      src={item.src}
+                      alt={`Project ${item.id}`}
+                      className="d-block w-100"
+                      style={imgStyle}
+                    />
+                  </a>
+                
+                  
                 </div>
               ))}
             </div>

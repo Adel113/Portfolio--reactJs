@@ -34,6 +34,18 @@ function Certificat() {
                     <h3 style={styleh3}>CCNA1</h3>
                     
                   </div>
+
+                  <div className=" crt">
+                    <img alt="css" src="pictures/pEtC/ccna2.png" />
+                    <h3 style={styleh3}>CCNA2</h3>
+                    
+                  </div>
+
+                  <div className=" crt">
+                    <img alt="css" src="pictures/pEtC/ccna3.png" />
+                    <h3 style={styleh3}>CCNA3</h3>
+                    
+                  </div>
               </div>
           
       
