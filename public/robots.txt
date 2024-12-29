@@ -3,7 +3,7 @@
 # Autoriser tous les robots à explorer toutes les pages
 User-agent: *
 Disallow: /admin/
+
 Disallow: /login/
 
-# Spécifier le sitemap du site
 Sitemap: https://adelsidiahmed.netlify.app/sitemap.xml
