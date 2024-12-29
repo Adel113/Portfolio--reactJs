@@ -78,6 +78,7 @@ class Projects extends React.Component {
             name="description"
             content="Découvrez les projets de Adel Sidi Ahmed, dont des sites web, des applications mobiles et des jeux vidéo. Explorez mes réalisations et mon savoir-faire."
           />
+          <meta name="google-site-verification" content="dT_JdRqknP05Mqh2hmahML7cPsVOpF2qcF3Ln_T1wcQ" />
         </Helmet>
 
         {/* Animation visuelle */}
