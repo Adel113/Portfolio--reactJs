@@ -27,7 +27,7 @@ function Formations() {
         <div className="row ">
           <div className="col-md-12 expos">
             <h2>FORMATIONS</h2>
-            
+
 
             <div className="row">
 
@@ -53,7 +53,9 @@ function Formations() {
                   </li>
                 </ul>
               </div>
+
               
+
               <div className="col-md-4">
                 <ul className="ligne">
                   <li>
@@ -62,17 +64,21 @@ function Formations() {
                     </h3>
                   </li>
                   <li>
+
                     Programme complet et axé sur l'informatique et technologies numériques.
                   </li>
                   <li>
                     Acquisition de bases solides en développement web, bases de données et C++.
+
                   </li>
                   <li>Initiation à la gestion de projet et ses outils essentiels.</li>
                   <li>
+
                     Exploration d'opportunités en technologies modernes et innovantes.
                   </li>
                 </ul>
               </div>
+
               <div className="col-md-4">
                 <ul className="ligne">
                   <li>
@@ -93,6 +99,7 @@ function Formations() {
                   </li>
 
                 </ul>
+
               </div>
             </div>
           </div>

@@ -49,3 +49,53 @@ function Certificat() {
 }
 
 export default Certificat;
+
+    return (
+        <div className="">
+            <div className="animation-trigger" style={{marginTop:"60px"}}>
+              <div className="row">
+                  <div className="col-md-12">
+                    <div className="bounce-top scroll-animation">
+                      <img className="center" style={{ display: "block", width: "50%" , margin:"auto" }} alt="séparation de la page" src="pictures/pEtC/crte.png" />
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <section id="Certifications" style={sectionCStyle}  className="Certificat">
+              <h2 style={H2CStyle}>
+                CERTIFICATIONS
+              </h2>
+              <div className="imgcrt">
+                  <div className=" crt">
+                    <img alt="ht-ml" src="pictures/pEtC/stage.png" />
+                    <h3 style={styleh3}>STAGE DEV-WEB</h3>
+                    
+                  </div>
+                  <div className=" crt">
+                    <img alt="css" src="pictures/pEtC/ccna1.png" />
+                    <h3 style={styleh3}>CCNA1</h3>
+                    
+                  </div>
+
+                  <div className=" crt">
+                    <img alt="css" src="pictures/pEtC/ccna2.png" />
+                    <h3 style={styleh3}>CCNA2</h3>
+                    
+                  </div>
+
+                  <div className=" crt">
+                    <img alt="css" src="pictures/pEtC/ccna3.png" />
+                    <h3 style={styleh3}>CCNA3</h3>
+                    
+                  </div>
+              </div>
+          
+      
+            </section>
+        </div>
+    
+      
+    );
+  }
+  
+  export default Certificat;
