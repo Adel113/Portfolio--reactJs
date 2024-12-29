@@ -43,7 +43,6 @@ function Coordonnees() {
               compétences et mes projets dans le domaine du développement web.
               J'ai hâte de partager mon travail et d'explorer de nouvelles
               opportunités de collaboration.
-            Je suis Adel Sidi Ahmed, un étudiant de 21 ans en Licence 3 Informatique, parcours Informatique des Systèmes Embarqués et Interactifs à l'Université Paris 8. Passionné par l'informatique depuis toujours, j'ai exploré divers domaines tels que la programmation, la sécurité informatique et l'infographie au cours de mes études. Toutefois, c'est le développement web et le design front-end qui ont particulièrement captivé mon intérêt. Maîtrisant HTML, CSS, JavaScript ainsi que des frameworks comme React et Vue.js, je trouve une grande satisfaction à créer des interfaces esthétiques et intuitives. Après avoir validé ma deuxième année avec succès, y compris un stage de deux mois, je suis enthousiaste à l'idée de poursuivre ma spécialisation dans les systèmes embarqués et interactifs. Mon portfolio reflète mon parcours, mes compétences et mes projets dans le domaine du développement web. Je suis impatient de partager mon travail et d'explorer de nouvelles opportunités de collaboration.
             </p>
             <i className="bi bi-envelope-at-fill"></i>
           </div>
