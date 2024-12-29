@@ -13,8 +13,6 @@ class Projects extends React.Component {
           src: "pictures/pEtC/lou.png",
           caption: "Site restaurant - WordPress",
           alt: "Projet de création d'un site pour un restaurant utilisant WordPress",
-
-          caption: "Site restaurant-Wordpress",
         },
         {
           id: 2,
@@ -33,8 +31,6 @@ class Projects extends React.Component {
           src: "pictures/pEtC/weather-app.png",
           caption: "Weather App - React JS",
           alt: "Application météo développée en React JS",
-          caption: "weatherApp-React js",
-
         },
       ],
     };
@@ -66,7 +62,12 @@ class Projects extends React.Component {
     };
     const imgStyle = { margin: "auto", padding: "20px" };
     const H2CStyle = { textAlign: "center", marginBottom: "60px" };
-    
+    const H2zCStyle = {
+      textAlign: "center",
+      backgroundColor: "#fff",
+      borderRadius: "60px",
+      color: "#000",
+    };
 
     return (
       <div className="">
@@ -116,16 +117,6 @@ class Projects extends React.Component {
                   <div className="carousel-caption">
                     <h3 style={H2zCStyle}>{item.caption}</h3>
                   </div>
-                  <a href={item.url} target="_blank" rel="noopener noreferrer">
-                    <img
-                      src={item.src}
-                      alt={`Project ${item.id}`}
-                      className="d-block w-100"
-                      style={imgStyle}
-                    />
-                  </a>
-                
-                  
                 </div>
               ))}
             </div>
