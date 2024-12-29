@@ -1,0 +1,9 @@
+# Robots.txt pour le site de portfolio d'Adel
+
+# Autoriser tous les robots à explorer toutes les pages
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+
+# Spécifier le sitemap du site
+Sitemap: https://portfolio-adel-sidiahmed.netlify.app/sitemap.xml

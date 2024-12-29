@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
 import React from "react";
+import { Helmet } from "react-helmet";
 
 class Projects extends React.Component {
   constructor() {
@@ -7,33 +8,34 @@ class Projects extends React.Component {
     this.state = {
       activeIndex: 0, // Index de l'élément actif
       items: [
-        // Liste des éléments du carousel
         {
           id: 1,
           src: "pictures/pEtC/lou.png",
-          caption: "Site restaurant-Wordpress",
+          caption: "Site restaurant - WordPress",
+          alt: "Projet de création d'un site pour un restaurant utilisant WordPress",
         },
         {
           id: 2,
           src: "pictures/pEtC/fitapp.png",
-          caption: "FitnessApp-kotlin",
+          caption: "Fitness App - Kotlin",
+          alt: "Application mobile de fitness développée en Kotlin",
         },
         {
           id: 3,
           src: "pictures/pEtC/gta.png",
-          caption: "GameGTA2-Python ",
+          caption: "Game GTA2 - Python",
+          alt: "Jeu vidéo inspiré de GTA2, développé en Python",
         },
         {
           id: 4,
           src: "pictures/pEtC/weather-app.png",
-          caption: "weatherApp-React js",
+          caption: "Weather App - React JS",
+          alt: "Application météo développée en React JS",
         },
-        
       ],
     };
   }
 
-  // Fonction pour passer à l'élément précédent
   prevSlide = () => {
     this.setState((prevState) => ({
       activeIndex:
@@ -42,7 +44,6 @@ class Projects extends React.Component {
     }));
   };
 
-  // Fonction pour passer à l'élément suivant
   nextSlide = () => {
     this.setState((prevState) => ({
       activeIndex: (prevState.activeIndex + 1) % prevState.items.length,
@@ -70,6 +71,16 @@ class Projects extends React.Component {
 
     return (
       <div className="">
+        {/* Balises SEO */}
+        <Helmet>
+          <title>Projets de Adel Sidi Ahmed</title>
+          <meta
+            name="description"
+            content="Découvrez les projets de Adel Sidi Ahmed, dont des sites web, des applications mobiles et des jeux vidéo. Explorez mes réalisations et mon savoir-faire."
+          />
+        </Helmet>
+
+        {/* Animation visuelle */}
         <div className="animation-trigger" style={{ marginTop: "60px" }}>
           <div className="row">
             <div className="col-md-12">
@@ -77,16 +88,18 @@ class Projects extends React.Component {
                 <img
                   className="center"
                   style={{ display: "block", width: "50%", margin: "auto" }}
-                  alt="séparation de la page"
+                  alt="Séparation visuelle entre les sections"
                   src="pictures/pEtC/projet-web.png"
                 />
               </div>
             </div>
           </div>
         </div>
+
+        {/* Section des projets */}
         <section id="projets" style={styles} className="projets">
           <h2 style={H2CStyle}>PROJETS</h2>
-          <div className="carousel">
+          <div className="carousel" aria-label="Carousel des projets">
             <div className="carousel-inner">
               {items.map((item, index) => (
                 <div
@@ -99,6 +112,7 @@ class Projects extends React.Component {
                     alt={item.alt}
                     className="d-block w-100"
                     style={imgStyle}
+                    loading="lazy"
                   />
                   <div className="carousel-caption">
                     <h3 style={H2zCStyle}>{item.caption}</h3>
@@ -106,10 +120,16 @@ class Projects extends React.Component {
                 </div>
               ))}
             </div>
-            <i className="carousel-control-prev" onClick={this.prevSlide}>
+            <i
+              className="carousel-control-prev"
+              onClick={this.prevSlide}
+              aria-label="Voir le projet précédent">
               <span className="carousel-control-prev-icon"></span>
             </i>
-            <i className="carousel-control-next " onClick={this.nextSlide}>
+            <i
+              className="carousel-control-next"
+              onClick={this.nextSlide}
+              aria-label="Voir le projet suivant">
               <span className="carousel-control-next-icon"></span>
             </i>
           </div>

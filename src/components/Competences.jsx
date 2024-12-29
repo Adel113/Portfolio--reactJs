@@ -18,7 +18,7 @@ function Competences() {
                   <img
                     className="center"
                     style={{ display: "block", width: "50%", margin: "auto" }}
-                    alt="séparation de la page"
+                    alt="séparation de la page entre les compétences"
                     src="pictures/competences/center-image4.png"
                   />
                 </div>
@@ -29,62 +29,96 @@ function Competences() {
       </div>
 
       <section className="b" id="competencesSection" style={sectionCStyle}>
-        <h2 style={H2Style}>COMPÉTENCES</h2>
+        <h2 style={H2Style}>COMPÉTENCES EN DÉVELOPPEMENT WEB ET INFORMATIQUE</h2>
 
-        <div
-          className="row imagesCompetences"
-          style={{ marginBottom: "100px" }}>
+        <div className="row imagesCompetences" style={{ marginBottom: "100px" }}>
           <div className="col-md-4">
-            <img alt="ht-ml" src="pictures/competences/html.png" />
+            <img
+              alt="Logo HTML - langage de balisage"
+              src="pictures/competences/html.png"
+            />
             <h2 style={H2Style}>HTML</h2>
           </div>
           <div className="col-md-4">
-            <img alt="css" src="pictures/competences/css.png" />
+            <img
+              alt="Logo CSS - feuille de style"
+              src="pictures/competences/css.png"
+            />
             <h2 style={H2Style}>CSS</h2>
           </div>
           <div className="col-md-4">
-            <img alt="js" src="pictures/competences/js.png" />
-            <h2 style={H2Style}>JS</h2>
+            <img
+              alt="Logo JavaScript - langage de programmation"
+              src="pictures/competences/js.png"
+            />
+            <h2 style={H2Style}>JavaScript</h2>
           </div>
 
           <div className="col-md-4">
-            <img alt="react" src="pictures/competences/react.png" />
-            <h2 style={H2Style}>ReactJs</h2>
+            <img
+              alt="Logo React - bibliothèque JavaScript"
+              src="pictures/competences/react.png"
+            />
+            <h2 style={H2Style}>ReactJS</h2>
           </div>
         
           <div className="col-md-4">
-            <img alt="sql" src="pictures/competences/serveur-sql.png" />
+            <img
+              alt="Logo SQL - langage de base de données"
+              src="pictures/competences/serveur-sql.png"
+            />
             <h2 style={H2Style}>SQL</h2>
           </div>
 
           <div className="col-md-4">
-            <img alt="git" src="pictures/competences/git..png" />
+            <img
+              alt="Logo Git - gestion de version"
+              src="pictures/competences/git..png"
+            />
             <h2 style={H2Style}>Git</h2>
           </div>
           <div className="col-md-4">
-            <img alt="github" src="pictures/coordonnees/github-logo.png" />
+            <img
+              alt="Logo GitHub - plateforme de partage de code"
+              src="pictures/coordonnees/github-logo.png"
+            />
             <h2 style={H2Style}>GitHub</h2>
           </div>
 
           <div className="col-md-4">
-            <img alt="wordpress" src="pictures/competences/wordpress.png" />
-            <h2 style={H2Style}>Wordpress</h2>
+            <img
+              alt="Logo WordPress - gestion de contenu"
+              src="pictures/competences/wordpress.png"
+            />
+            <h2 style={H2Style}>WordPress</h2>
           </div>
           <div className="col-md-4">
-            <img alt="wordpress" src="pictures/competences/shopify.png" />
+            <img
+              alt="Logo Shopify - plateforme de commerce en ligne"
+              src="pictures/competences/shopify.png"
+            />
             <h2 style={H2Style}>Shopify</h2>
           </div>
           <div className="col-md-4">
-            <img alt="java" src="pictures/competences/java.png" />
-            <h2 style={H2Style}>JAVA</h2>
+            <img
+              alt="Logo Java - langage de programmation"
+              src="pictures/competences/java.png"
+            />
+            <h2 style={H2Style}>Java</h2>
           </div>
           <div className="col-md-4">
-            <img alt="java" src="pictures/competences/C.png" />
+            <img
+              alt="Logo C - langage de programmation"
+              src="pictures/competences/C.png"
+            />
             <h2 style={H2Style}>C</h2>
           </div>
           
           <div className="col-md-4">
-            <img alt="figma" src="pictures/competences/figma.png" />
+            <img
+              alt="Logo Figma - outil de design"
+              src="pictures/competences/figma.png"
+            />
             <h2 style={H2Style}>Figma</h2>
           </div>
         </div>

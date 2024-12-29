@@ -31,12 +31,12 @@ function Coordonnees() {
           <div className="col-md-8">
             <h2 className="name">ADEL SIDI AHMED</h2>
             <p className="presentation">
-              Je suis Adel Sidi Ahmed, un étudiant de 20 ans en deuxième année à
-              l'ENIGMA SCHOOL à Lille. Passionné par l'informatique depuis
-              toujours, j'ai exploré divers domaines tels que la programmation,
-              la sécurité informatique et l'infographie au cours de ma première
-              année. Cependant, c'est le développement web et le design
-              front-end qui ont captivé mon intérêt. Maîtrisant HTML, CSS,
+              Je suis Adel Sidi Ahmed, un étudiant de 21 ans en Licence 3
+              Informatique à l'ISEI à l'Université Paris 8. Passionné par
+              l'informatique depuis toujours, j'ai exploré divers domaines tels
+              que la programmation, la sécurité informatique et l'infographie au
+              cours de mes études. Cependant, c'est le développement web et le
+              design front-end qui ont captivé mon intérêt. Maîtrisant HTML, CSS,
               JavaScript ainsi que des frameworks comme React et Vue.js, je
               trouve une satisfaction particulière à créer des interfaces
               esthétiques et intuitives. Mon portfolio reflète mon parcours, mes
