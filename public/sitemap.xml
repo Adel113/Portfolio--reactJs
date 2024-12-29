@@ -9,55 +9,55 @@
 
     <!-- Section domaine' -->
     <url>
-        <loc>https://adelsidiahmed.netlify.app/domaine</loc>
+        <loc>https://adelsidiahmed.netlify.app/#domaine</loc>
         <lastmod>2024-12-29</lastmod>
         <priority>0.8</priority>
     </url>
     <!-- Section 'Qui suis-je' -->
     <url>
-        <loc>https://adelsidiahmed.netlify.app/quiSuisje</loc>
+        <loc>https://adelsidiahmed.netlify.app/#quiSuisje</loc>
         <lastmod>2024-12-29</lastmod>
         <priority>0.8</priority>
     </url>
 
     <!-- Section 'Coordonnées' -->
     <url>
-        <loc>https://adelsidiahmed.netlify.app/coordonnees</loc>
+        <loc>https://adelsidiahmed.netlify.app/#coordonnees</loc>
         <lastmod>2024-12-29</lastmod>
         <priority>0.8</priority>
     </url>
 
     <!-- Section 'Compétences' -->
     <url>
-        <loc>https://adelsidiahmed.netlify.app/competences</loc>
+        <loc>https://adelsidiahmed.netlify.app/#competences</loc>
         <lastmod>2024-12-29</lastmod>
         <priority>0.8</priority>
     </url>
 
     <!-- Section 'Formations' -->
     <url>
-        <loc>https://adelsidiahmed.netlify.app/Formations</loc>
+        <loc>https://adelsidiahmed.netlify.app/#Formations</loc>
         <lastmod>2024-12-29</lastmod>
         <priority>0.8</priority>
     </url>
 
     <!-- Section 'Expériences' -->
     <url>
-        <loc>https://adelsidiahmed.netlify.app/Experiences</loc>
+        <loc>https://adelsidiahmed.netlify.app/#Experiences</loc>
         <lastmod>2024-12-29</lastmod>
         <priority>0.7</priority>
     </url>
 
     <!-- Section 'Projets' -->
     <url>
-        <loc>https://adelsidiahmed.netlify.app/projets</loc>
+        <loc>https://adelsidiahmed.netlify.app/#projets</loc>
         <lastmod>2024-12-29</lastmod>
         <priority>0.7</priority>
     </url>
 
     <!-- Section 'Certifications' -->
     <url>
-        <loc>https://adelsidiahmed.netlify.app/certifications</loc>
+        <loc>https://adelsidiahmed.netlify.app/#certifications</loc>
         <lastmod>2024-12-29</lastmod>
         <priority>0.7</priority>
     </url>

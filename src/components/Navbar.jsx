@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <div className="dashboard-nav" style={navstyle}>
       <header>
-        <a href="domaine" className="brand-logo" aria-label="Logo de la marque">
+        <a href="#domaine" className="brand-logo" aria-label="Logo de la marque">
           <img
             className="menuasa"
             src="pictures/coordonnees/ADELCV.PNG"
@@ -26,7 +26,7 @@ function Navbar() {
       </header>
       <nav className="dashboard-nav-list" aria-label="Menu principal">
         <a
-          href="quiSuisje"
+          href="#quiSuisje"
           onClick={() => scrollToElement("QuiSuisJeSection")}
           className="dashboard-nav-item"
           aria-label="Aller à la section Qui suis-je"
@@ -40,7 +40,7 @@ function Navbar() {
           Qui suis-je !
         </a>
         <a
-          href="coordonnees"
+          href="#coordonnees"
           onClick={() => scrollToElement("CoordonnéesSection")}
           className="dashboard-nav-item"
           aria-label="Aller à la section Coordonnées"
@@ -54,7 +54,7 @@ function Navbar() {
           Coordonnées
         </a>
         <a
-          href="competences"
+          href="#competences"
           onClick={() => scrollToElement("competencesSection")}
           className="dashboard-nav-item"
           aria-label="Aller à la section Compétences"
@@ -68,7 +68,7 @@ function Navbar() {
           Compétences
         </a>
         <a
-          href="Formations"
+          href="#Formations"
           onClick={() => scrollToElement("FormationsSection")}
           className="dashboard-nav-item"
           id="FormationsLink"
@@ -83,7 +83,7 @@ function Navbar() {
           Formations
         </a>
         <a
-          href="Experiences"
+          href="#Experiences"
           onClick={() => scrollToElement("ExperiencesSections")}
           className="dashboard-nav-item"
           id="ExperiencesLink"
@@ -98,7 +98,7 @@ function Navbar() {
           EXPÉRIENCES
         </a>
         <a
-          href="projets"
+          href="#projets"
           onClick={() => scrollToElement("projets")}
           className="dashboard-nav-item"
           id="ExperiencesLink"
@@ -113,7 +113,7 @@ function Navbar() {
           PROJETS
         </a>
         <a
-          href="certifications"
+          href="#certifications"
           onClick={() => scrollToElement("Certifications")}
           className="dashboard-nav-item"
           id="ExperiencesLink"
